@@ -1,5 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #1d438a;
   background-color: #a5cec1;
+}
+
+nav {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100px;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: #1d438a;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
 }

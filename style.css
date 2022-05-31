@@ -11,16 +11,18 @@ body {
 nav {
   display: flex;
   padding: 20px 0;
-  justify-content: space-between;
+  justify-content: center;
   gap: 10px;
-  height: 100px;
+  max-height: 200px;
   flex-wrap: wrap;
 }
 
 .button {
   background-color: #1d438a;
   color: white;
+  width: 150px;
   padding: 8px 15px;
   border-radius: 5px;
   text-decoration: none;
+  text-align: center;
 }
